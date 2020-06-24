@@ -1,0 +1,42 @@
+/*
+Theme Name:     licencetodrive
+Theme URI:      http://licencetodrive.co.uk/
+Description:    licencetodrive theme, based on Twenty Eleven 
+Author:         Simon Griffee
+Author URI:     https://simongriffee.com
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+
+/*div#site-generator {background:none; border:none;}
+div#site-generator a {font-size:11px !important; color:#999 !important;}
+*/
+body, input, textarea, .entry-content {
+	color: #fff;
+}
+div#site-generator {color:#999;}
+div#site-generator a {color:#f60;}
+div#primary a, div#secondary a, div#supplementary a {font-weight:normal; text-decoration:underline;}
+/*a:hover, a:active {font-weight:normal; text-decoration:none;}*/
+/*div#supplementary a {color:#666;}*/
+
+/*h1#site-title a {font-weight:normal !important; color:#aaa; letter-spacing:0.2em; font-size:3.5em; font-family:verdana, sans-serif;}*/
+/*h1.entry-title a {font-weight:bold !important; text-decoration:none !important;}*/
+
+h1, h1.entry-title {font-size:2em !important; color:#e4741f !important;}
+h2 {font-size:2em;}
+
+/*nav#access {background:#999; display:none;} */
+header#branding {border:none;}
+nav#access {background:#444;}
+
+/* http://wordpress.org/support/topic/author-not-displayed-on-posts-in-twenty-eleven */
+/*.single-author .entry-meta .by-author {
+    display: inline;
+}*/
+
+.singular.page .hentry {
+padding: 0 0 0;
+}
